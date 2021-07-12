@@ -7,9 +7,11 @@ const ServicesPage = () => {
     <>
       <Header />
       <NavBar />
-      <h1>Services</h1>
-      <p>Mockup for the Services Page</p>
-      <p>lorem40</p>
+      <main>
+        <h1>Services</h1>
+        <p>Mockup for the Services Page</p>
+        <p>lorem40</p>
+      </main>
     </>
   );
 };

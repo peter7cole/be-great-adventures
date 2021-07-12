@@ -9,8 +9,8 @@ const IndexPage = () => {
     <>
       <Header />
       <NavBar />
-      <main style={{ fontFamily: 'karla' }}>
-        <h1 style={{ fontSize: '36px' }}>
+      <main>
+        <h1>
           Welcome to
           <br />
           <span>Be Great Adventures!</span>

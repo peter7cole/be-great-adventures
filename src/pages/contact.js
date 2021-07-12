@@ -7,9 +7,11 @@ const ContactPage = () => {
     <>
       <Header />
       <NavBar />
-      <h1>Contact</h1>
-      <p>Mockup for the Contact Page</p>
-      <p>lorem40</p>
+      <main>
+        <h1>Contact</h1>
+        <p>Mockup for the Contact Page</p>
+        <p>lorem40</p>
+      </main>
     </>
   );
 };
