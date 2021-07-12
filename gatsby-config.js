@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: "Be Great Adventures",
+    title: 'Be Great Adventures',
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-sass',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: 'images',
+        path: './src/images/',
       },
-      __key: "images",
+      __key: 'images',
     },
   ],
 };
